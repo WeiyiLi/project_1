@@ -1,4 +1,6 @@
 Project1::Application.routes.draw do
+  resources :drivers
+
   resources :cars
 
   # The priority is based upon order of creation: first created -> highest priority.
